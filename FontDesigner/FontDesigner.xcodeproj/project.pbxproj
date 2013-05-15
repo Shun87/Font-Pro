@@ -89,8 +89,6 @@
 		36EB39E11737F02400BE9247 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39E31737F02400BE9247 /* Localizable.strings */; };
 		36EB39E71737F2D900BE9247 /* hideKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39E51737F2D900BE9247 /* hideKey.png */; };
 		36EB39E81737F2D900BE9247 /* hideKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39E61737F2D900BE9247 /* hideKey@2x.png */; };
-		36EB39ED1737F30B00BE9247 /* hideKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39E91737F30B00BE9247 /* hideKey.png */; };
-		36EB39EE1737F30B00BE9247 /* hideKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39EA1737F30B00BE9247 /* hideKey@2x.png */; };
 		36EB39EF1737F30B00BE9247 /* toolbarbk.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39EB1737F30B00BE9247 /* toolbarbk.png */; };
 		36EB39F01737F30B00BE9247 /* toolbarbk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB39EC1737F30B00BE9247 /* toolbarbk@2x.png */; };
 /* End PBXBuildFile section */
@@ -199,8 +197,6 @@
 		36EB39E41737F02900BE9247 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		36EB39E51737F2D900BE9247 /* hideKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hideKey.png; path = icon/hideKey.png; sourceTree = SOURCE_ROOT; };
 		36EB39E61737F2D900BE9247 /* hideKey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hideKey@2x.png"; path = "icon/hideKey@2x.png"; sourceTree = SOURCE_ROOT; };
-		36EB39E91737F30B00BE9247 /* hideKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hideKey.png; path = icon/hideKey.png; sourceTree = SOURCE_ROOT; };
-		36EB39EA1737F30B00BE9247 /* hideKey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hideKey@2x.png"; path = "icon/hideKey@2x.png"; sourceTree = SOURCE_ROOT; };
 		36EB39EB1737F30B00BE9247 /* toolbarbk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toolbarbk.png; path = icon/toolbarbk.png; sourceTree = SOURCE_ROOT; };
 		36EB39EC1737F30B00BE9247 /* toolbarbk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toolbarbk@2x.png"; path = "icon/toolbarbk@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -348,8 +344,6 @@
 				363B380B173E06FF00753884 /* pro@2x.png */,
 				3661FE3417380DF800B4E9E6 /* refresh.png */,
 				3661FE3517380DF800B4E9E6 /* refresh@2x.png */,
-				36EB39E91737F30B00BE9247 /* hideKey.png */,
-				36EB39EA1737F30B00BE9247 /* hideKey@2x.png */,
 				36EB39EB1737F30B00BE9247 /* toolbarbk.png */,
 				36EB39EC1737F30B00BE9247 /* toolbarbk@2x.png */,
 				36EB39E51737F2D900BE9247 /* hideKey.png */,
@@ -475,8 +469,6 @@
 				36EB39E11737F02400BE9247 /* Localizable.strings in Resources */,
 				36EB39E71737F2D900BE9247 /* hideKey.png in Resources */,
 				36EB39E81737F2D900BE9247 /* hideKey@2x.png in Resources */,
-				36EB39ED1737F30B00BE9247 /* hideKey.png in Resources */,
-				36EB39EE1737F30B00BE9247 /* hideKey@2x.png in Resources */,
 				36EB39EF1737F30B00BE9247 /* toolbarbk.png in Resources */,
 				36EB39F01737F30B00BE9247 /* toolbarbk@2x.png in Resources */,
 				3661FE3617380DF800B4E9E6 /* refresh.png in Resources */,

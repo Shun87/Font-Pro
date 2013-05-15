@@ -204,6 +204,10 @@
         {
             [socila sendFeedback:NSLocalizedString(@"FontDesigner", nil) body:nil];
         }
+        else if (row == 3)
+        {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/us/app/font-design-pro-custom-font/id645489866?mt=8"]];
+        }
     }
 }
 @end
