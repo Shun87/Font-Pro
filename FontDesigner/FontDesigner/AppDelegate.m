@@ -13,6 +13,7 @@
 #import "SettingViewController.h"
 #import "UIColor+HexColor.h"
 #import "StyleViewController.h"
+#include "SymbolListViewController.h"
 
 @implementation AppDelegate
 @synthesize systemFontFamily;
@@ -38,7 +39,11 @@
         NSString *objStr2 = (NSString *)obj2;
         return [objStr1 compare:objStr2];
     }];
+ 
     
+    SymbolListViewController *sysmbolNameViewController = [[[SymbolListViewController alloc] initWithNibName:@"SymbolListViewController" bundle:nil] autorelease];
+    sysmbolNameViewController.title = NSLocalizedString(@"Symbols", @"Family");
+    sysmbolNameViewController.tabBarItem.image = [UIImage imageNamed:@"account"];
     
     // Override point for customization after application launch.
     FamilyViewController *viewController1 = [[[FamilyViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
@@ -55,13 +60,15 @@
     
     SettingViewController *viewController4 = [[[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:nil] autorelease];
     
+    UINavigationController *sysmbolNav = [[[UINavigationController alloc] initWithRootViewController:sysmbolNameViewController] autorelease];
+    
     UINavigationController *navigationController1 = [[[UINavigationController alloc] initWithRootViewController:viewController1] autorelease];
     UINavigationController *navigationController2 = [[[UINavigationController alloc] initWithRootViewController:viewController2] autorelease];
     UINavigationController *navigationController3 = [[[UINavigationController alloc] initWithRootViewController:viewController3] autorelease];
     
     UINavigationController *navigationController4 = [[[UINavigationController alloc] initWithRootViewController:viewController4] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navigationController1, navigationController2, navigationController3, navigationController4, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:sysmbolNav, navigationController1, navigationController2, navigationController3, navigationController4, nil];
     self.window.rootViewController = self.tabBarController;
 
 //    // Initialize the banner at the bottom of the screen.
@@ -86,29 +93,30 @@
     [[UINavigationBar appearance] setTintColor:[UIColor colorFromHex:BlueNavigationBar]];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     
+
     return YES;
 }
 
-//// Here we're creating a simple GADRequest and whitelisting the application
-//// for test ads. You should request test ads during development to avoid
-//// generating invalid impressions and clicks.
-//- (GADRequest *)createRequest {
-//    GADRequest *request = [GADRequest request];
-//    request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil];
-//    return request;
-//}
-//
-//#pragma mark GADBannerViewDelegate impl
-//
-//// We've received an ad successfully.
-//- (void)adViewDidReceiveAd:(GADBannerView *)adView {
-//    NSLog(@"Received ad successfully");
-//}
-//
-//- (void)adView:(GADBannerView *)view
-//didFailToReceiveAdWithError:(GADRequestError *)error {
-//    NSLog(@"Failed to receive ad with error: %@", [error localizedFailureReason]);
-//}
+// Here we're creating a simple GADRequest and whitelisting the application
+// for test ads. You should request test ads during development to avoid
+// generating invalid impressions and clicks.
+- (GADRequest *)createRequest {
+    GADRequest *request = [GADRequest request];
+
+    return request;
+}
+
+#pragma mark GADBannerViewDelegate impl
+
+// We've received an ad successfully.
+- (void)adViewDidReceiveAd:(GADBannerView *)adView {
+    NSLog(@"Received ad successfully");
+}
+
+- (void)adView:(GADBannerView *)view
+didFailToReceiveAdWithError:(GADRequestError *)error {
+    NSLog(@"Failed to receive ad with error: %@", [error localizedFailureReason]);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

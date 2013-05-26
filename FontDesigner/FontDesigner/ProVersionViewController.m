@@ -37,7 +37,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorFromHex:TableViewBKColor];
     UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [leftButton setImage:[UIImage imageNamed:@"back.png"] forState:UIControlStateNormal];
+    [leftButton setImage:[UIImage imageNamed:@"back_white.png"] forState:UIControlStateNormal];
     [leftButton setFrame:CGRectMake(0, 0, 40, 40)];
     leftButton.showsTouchWhenHighlighted = YES;
     [leftButton addTarget:self
@@ -52,7 +52,14 @@
     [button setTitle:NSLocalizedString(@"learn more", nil) forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:@"Learn.png"] forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:@"Learn_s.png"] forState:UIControlStateHighlighted];
+    [button addTarget:self
+               action:@selector(proversion:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.title = NSLocalizedString(@"pro", nil);
+}
+
+- (IBAction)proversion:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/us/app/font-design-pro-custom-font/id645489866?mt=8"]];
 }
 
 - (IBAction)goBack:(id)sender

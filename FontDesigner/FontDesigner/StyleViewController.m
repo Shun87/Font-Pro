@@ -94,17 +94,17 @@
 {
     [super viewWillAppear:animated];
     
-//    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-//    if (app.adBanner.superview != nil)
-//    {
-//        [app.adBanner removeFromSuperview];
-//    }
-//    
-//    CGRect rect = app.adBanner.frame;
-//    rect.origin.y = self.view.frame.size.height -  CGSizeFromGADAdSize(kGADAdSizeBanner).height;
-//    app.adBanner.frame = rect;
-//    app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
-//    [self.view addSubview:app.adBanner];
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    if (app.adBanner.superview != nil)
+    {
+        [app.adBanner removeFromSuperview];
+    }
+    
+    CGRect rect = app.adBanner.frame;
+    rect.origin.y = self.view.frame.size.height -  CGSizeFromGADAdSize(kGADAdSizeBanner).height;
+    app.adBanner.frame = rect;
+    app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    [self.view addSubview:app.adBanner];
 }
 
 - (void)didReceiveMemoryWarning

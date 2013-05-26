@@ -44,7 +44,7 @@
     self.mTableView.separatorColor = [UIColor colorFromHex:SeperatorColor];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setImage:[UIImage imageNamed:@"back.png"] forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"back_white.png"] forState:UIControlStateNormal];
     [button setFrame:CGRectMake(0, 0, 40, 40)];
     button.showsTouchWhenHighlighted = YES;
     [button addTarget:self
@@ -72,17 +72,17 @@
     }];
     
     
-//    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-//    if (app.adBanner.superview != nil)
-//    {
-//        [app.adBanner removeFromSuperview];
-//    }
-//    
-//    CGRect rect = app.adBanner.frame;
-//    rect.origin.y = self.view.frame.size.height -  CGSizeFromGADAdSize(kGADAdSizeBanner).height;
-//    app.adBanner.frame = rect;
-//    app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
-//    [self.view addSubview:app.adBanner];
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    if (app.adBanner.superview != nil)
+    {
+        [app.adBanner removeFromSuperview];
+    }
+    
+    CGRect rect = app.adBanner.frame;
+    rect.origin.y = self.view.frame.size.height -  CGSizeFromGADAdSize(kGADAdSizeBanner).height;
+    app.adBanner.frame = rect;
+    app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    [self.view addSubview:app.adBanner];
 }
 
 - (void)didReceiveMemoryWarning

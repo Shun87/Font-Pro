@@ -7,15 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "GADBannerView.h"
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+#import "GADBannerView.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate, GADBannerViewDelegate>
 {
     NSMutableArray *systemFontFamily;
-     //GADBannerView *adBanner;
+     GADBannerView *adBanner;
 }
 @property (nonatomic, retain)NSMutableArray *systemFontFamily;
 @property (strong, nonatomic) UIWindow *window;
-//@property (nonatomic, retain) GADBannerView *adBanner;
+@property (nonatomic, retain) GADBannerView *adBanner;
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
 @end

@@ -65,7 +65,7 @@
     [button setFrame:CGRectMake(0, 0, 40, 40)];
     button.showsTouchWhenHighlighted = YES;
     [button addTarget:self
-               action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
+               action:@selector(showProVersion:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     self.navigationItem.rightBarButtonItem = rightItem;
     [rightItem release];
