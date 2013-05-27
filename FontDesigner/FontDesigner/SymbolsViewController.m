@@ -111,51 +111,76 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)buttonClicked:(id)sender
-{
-    UIButton *button = (UIButton *)sender;
-    NSString *text = button.titleLabel.text;
-    NSData *data = [text dataUsingEncoding:NSUTF16LittleEndianStringEncoding];
-    int nLen = [data length];
-    for (int i=0; i<nLen; i+=2)
-    {
-        NSRange range;
-        range.location = i;
-        range.length = 2;
-        char buffer[2];
-        [data getBytes:buffer range:range];
-        
-        ushort hexValue = *(ushort *)buffer;
-        NSString *hexStr = [NSString stringWithFormat:@"%04x", hexValue];
-        NSString *unicode = [NSString stringWithFormat:@"U+%@", hexStr];
-        NSLog(@"%@", unicode);
-    }
-    
-}
-
 - (IBAction)symbolClicked:(id)sender
 {
     UILabel *label = (UILabel *)sender;
-    NSLog(@"%@", label.text);
-    
     if (symbolDetailView == nil)
     {
         symbolDetailView = [[UIView alloc] initWithFrame:self.mTableView.frame];
         symbolDetailView.backgroundColor = [UIColor blackColor];
         symbolDetailView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.85];
         
-        UILabel *symboldetaillabel = [[UILabel alloc] initWithFrame:CGRectMake(0, symbolDetailView.frame.size.height - 200, symbolDetailView.frame.size.width, 60)];
-        symboldetaillabel.textAlignment =  UITextAlignmentCenter;
-        symboldetaillabel.textColor = [UIColor darkGrayColor];
-        symboldetaillabel.text = label.text;
-        [symbolDetailView addSubview:symboldetaillabel];
-        symboldetaillabel.tag = 1001;
-        symboldetaillabel.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
-        symboldetaillabel.font = [UIFont systemFontOfSize:55];
+        UILabel *taillabel = [[[UILabel alloc] initWithFrame:CGRectMake(0, symbolDetailView.frame.size.height - 200, symbolDetailView.frame.size.width, 60)]autorelease];
+        taillabel.textAlignment =  UITextAlignmentCenter;
+        taillabel.textColor = [UIColor darkGrayColor];
+        taillabel.text = label.text;
+        [symbolDetailView addSubview:taillabel];
+        taillabel.tag = 1001;
+        taillabel.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
+        taillabel.font = [UIFont systemFontOfSize:55];
+        
+        UILabel *copyLable = [[[UILabel alloc] initWithFrame:CGRectMake(0, taillabel.frame.origin.y + taillabel.frame.size.height +  10, symbolDetailView.frame.size.width, 20)] autorelease];
+        copyLable.textAlignment =  UITextAlignmentCenter;
+        copyLable.textColor = [UIColor darkGrayColor];
+        copyLable.text = label.text;
+        [symbolDetailView addSubview:copyLable];
+        copyLable.tag = 1002;
+        copyLable.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
+        copyLable.font = [UIFont systemFontOfSize:20];
+        copyLable.text = NSLocalizedString(@"Copied", nil);
+        
+        UILabel *unicodeLable = [[[UILabel alloc] initWithFrame:CGRectMake(0, copyLable.frame.origin.y + copyLable.frame.size.height + 10, symbolDetailView.frame.size.width, 25)] autorelease];
+        unicodeLable.textAlignment =  UITextAlignmentCenter;
+        unicodeLable.textColor = [UIColor darkGrayColor];
+        unicodeLable.text = label.text;
+        [symbolDetailView addSubview:unicodeLable];
+        unicodeLable.tag = 1003;
+        unicodeLable.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
+        unicodeLable.font = [UIFont systemFontOfSize:20];
     }
     [self.view addSubview:symbolDetailView];
     UILabel *detail = (UILabel *)[symbolDetailView viewWithTag:1001];
     detail.text = label.text;
+    UILabel *unicodeLable = (UILabel *)[symbolDetailView viewWithTag:1003];
+    NSString *unicode = nil;
+    if (!emoj)
+    {
+        NSData *data = [label.text dataUsingEncoding:NSUTF16LittleEndianStringEncoding];
+        int nLen = [data length];
+        for (int i=0; i<nLen; i+=2)
+        {
+            NSRange range;
+            range.location = i;
+            range.length = 2;
+            char buffer[2];
+            [data getBytes:buffer range:range];
+            
+            ushort hexValue = *(ushort *)buffer;
+            NSString *hexStr = [NSString stringWithFormat:@"%04x", hexValue];
+            unicode = [NSString stringWithFormat:@"U+%@", hexStr];
+            unicodeLable.text = unicode;
+        }
+    }
+    else
+    {
+        NSData *data = [label.text dataUsingEncoding:NSNonLossyASCIIStringEncoding];
+        unicode = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        unicodeLable.text = unicode;
+    }
+
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    pasteboard.string = label.text;
+    
     symbolDetailView.alpha = 1.0;
     [self performSelector:@selector(removeSymbolDetailView) withObject:nil afterDelay:1.3];
 }

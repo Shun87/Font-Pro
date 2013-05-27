@@ -98,6 +98,8 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     
 
+//    NSData *data = [strEmo dataUsingEncoding:NSUTF8StringEncoding];
+//    NSString *valueEmoj = [[NSString alloc] initWithData:data encoding:NSNonLossyASCIIStringEncoding];
     return YES;
 }
 

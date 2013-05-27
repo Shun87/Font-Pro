@@ -5,14 +5,14 @@
 	<key>Basic Latin</key>
 	<dict>
 		<key>from</key>
-		<string>U+0000</string>
+		<string>U+0021</string>
 		<key>to</key>
 		<string>U+007f</string>
 	</dict>
 	<key>Latin-1 Supplement</key>
 	<dict>
 		<key>from</key>
-		<string>U+0080</string>
+		<string>U+00a1</string>
 		<key>to</key>
 		<string>U+00ff</string>
 	</dict>
@@ -44,17 +44,10 @@
 		<key>to</key>
 		<string>U+02ff</string>
 	</dict>
-	<key>Combining Diacritical Marks</key>
-	<dict>
-		<key>from</key>
-		<string>U+0300</string>
-		<key>to</key>
-		<string>U+036f</string>
-	</dict>
 	<key>Greek and Coptic</key>
 	<dict>
 		<key>from</key>
-		<string>U+0370</string>
+		<string>U+0374</string>
 		<key>to</key>
 		<string>U+03ff</string>
 	</dict>
@@ -65,26 +58,12 @@
 		<key>to</key>
 		<string>U+04ff</string>
 	</dict>
-	<key>Cyrillic Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+0500</string>
-		<key>to</key>
-		<string>U+052f</string>
-	</dict>
 	<key>Armenian</key>
 	<dict>
 		<key>from</key>
 		<string>U+0530</string>
 		<key>to</key>
-		<string>U+058f</string>
-	</dict>
-	<key>Hebrew</key>
-	<dict>
-		<key>from</key>
-		<string>U+0590</string>
-		<key>to</key>
-		<string>U+05ff</string>
+		<string>U+058a</string>
 	</dict>
 	<key>Arabic</key>
 	<dict>
@@ -112,21 +91,21 @@
 		<key>from</key>
 		<string>U+0a00</string>
 		<key>to</key>
-		<string>U+0a7f</string>
+		<string>U+0a74</string>
 	</dict>
 	<key>Gujarati</key>
 	<dict>
 		<key>from</key>
 		<string>U+0a80</string>
 		<key>to</key>
-		<string>U+0aff</string>
+		<string>U+0ab9</string>
 	</dict>
 	<key>Oriya</key>
 	<dict>
 		<key>from</key>
 		<string>U+0b00</string>
 		<key>to</key>
-		<string>U+0b7f</string>
+		<string>U+0b71</string>
 	</dict>
 	<key>Tamil</key>
 	<dict>
@@ -147,98 +126,70 @@
 		<key>from</key>
 		<string>U+0c80</string>
 		<key>to</key>
-		<string>U+0cff</string>
-	</dict>
-	<key>Malayalam</key>
-	<dict>
-		<key>from</key>
-		<string>U+0ddd</string>
-		<key>to</key>
-		<string>U+0d7f</string>
+		<string>U+0cef</string>
 	</dict>
 	<key>Sinhala</key>
 	<dict>
 		<key>from</key>
 		<string>U+0d80</string>
 		<key>to</key>
-		<string>U+0dff</string>
+		<string>U+0ddf</string>
 	</dict>
 	<key>Thai</key>
 	<dict>
 		<key>from</key>
 		<string>U+0e00</string>
 		<key>to</key>
-		<string>U+0e7f</string>
+		<string>U+0e5b</string>
 	</dict>
 	<key>Lao</key>
 	<dict>
 		<key>from</key>
 		<string>U+0e80</string>
 		<key>to</key>
-		<string>U+0eff</string>
+		<string>U+0edd</string>
 	</dict>
 	<key>Tibetan</key>
 	<dict>
 		<key>from</key>
 		<string>U+0f00</string>
 		<key>to</key>
-		<string>U+0fff</string>
+		<string>U+0fd8</string>
 	</dict>
 	<key>Georgian</key>
 	<dict>
 		<key>from</key>
 		<string>U+10a0</string>
 		<key>to</key>
-		<string>U+10ff</string>
+		<string>U+10f6</string>
 	</dict>
 	<key>Hangul Jamo</key>
 	<dict>
 		<key>from</key>
 		<string>U+1100</string>
 		<key>to</key>
-		<string>U+11ff</string>
+		<string>U+1112</string>
 	</dict>
 	<key>Cherokee</key>
 	<dict>
 		<key>from</key>
 		<string>U+13a0</string>
 		<key>to</key>
-		<string>U+13ff</string>
+		<string>U+13f4</string>
 	</dict>
 	<key>Unified Canadian Aboriginal Syllabics</key>
 	<dict>
 		<key>from</key>
 		<string>U+1400</string>
 		<key>to</key>
-		<string>U+167f</string>
-	</dict>
-	<key>Phonetic Extensions</key>
-	<dict>
-		<key>from</key>
-		<string>U+1d00</string>
-		<key>to</key>
-		<string>U+1d7f</string>
-	</dict>
-	<key>Phonetic Extensions Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+1d80</string>
-		<key>to</key>
-		<string>U+1dbf</string>
-	</dict>
-	<key>Combining Diacritical Marks Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+1dc0</string>
-		<key>to</key>
-		<string>U+1dff</string>
+		<string>U+1676</string>
 	</dict>
 	<key>Latin Extended Additional</key>
 	<dict>
 		<key>from</key>
 		<string>U+1e00</string>
 		<key>to</key>
-		<string>U+1eff</string>
+		<string>U+1ef9</string>
 	</dict>
 	<key>Greek Extended</key>
 	<dict>
@@ -250,30 +201,23 @@
 	<key>General Punctuation</key>
 	<dict>
 		<key>from</key>
-		<string>U+2000</string>
+		<string>U+2010</string>
 		<key>to</key>
-		<string>U+206f</string>
+		<string>U+205e</string>
 	</dict>
 	<key>Superscripts and Subscripts</key>
 	<dict>
 		<key>from</key>
 		<string>U+2070</string>
 		<key>to</key>
-		<string>U+209f</string>
+		<string>U+2094</string>
 	</dict>
 	<key>Currency Symbols</key>
 	<dict>
 		<key>from</key>
 		<string>U+20a0</string>
 		<key>to</key>
-		<string>U+20cf</string>
-	</dict>
-	<key>Combining Diacritical Marks for Symbols</key>
-	<dict>
-		<key>from</key>
-		<string>U+20d0</string>
-		<key>to</key>
-		<string>U+20ff</string>
+		<string>U+20b5</string>
 	</dict>
 	<key>Letterlike Symbols</key>
 	<dict>
@@ -285,51 +229,51 @@
 	<key>Number Forms</key>
 	<dict>
 		<key>from</key>
-		<string>U+2150</string>
+		<string>U+2153</string>
 		<key>to</key>
-		<string>U+218f</string>
+		<string>U+2184</string>
 	</dict>
 	<key>Arrows</key>
 	<dict>
 		<key>from</key>
 		<string>U+2190</string>
 		<key>to</key>
-		<string>U+21ff</string>
+		<string>U+21ea</string>
 	</dict>
 	<key>Mathematical Operators</key>
 	<dict>
 		<key>from</key>
 		<string>U+2200</string>
 		<key>to</key>
-		<string>U+22ff</string>
+		<string>U+22f1</string>
 	</dict>
 	<key>Miscellaneous Thchnical</key>
 	<dict>
 		<key>from</key>
 		<string>U+2300</string>
 		<key>to</key>
-		<string>U+23ff</string>
+		<string>U+237a</string>
 	</dict>
 	<key>Control Pictures</key>
 	<dict>
 		<key>from</key>
 		<string>U+2400</string>
 		<key>to</key>
-		<string>U+243f</string>
+		<string>U+2424</string>
 	</dict>
 	<key>Optical Character Recognition</key>
 	<dict>
 		<key>from</key>
 		<string>U+2440</string>
 		<key>to</key>
-		<string>U+245f</string>
+		<string>U+244a</string>
 	</dict>
 	<key>Enclosed Alphanumerics</key>
 	<dict>
 		<key>from</key>
 		<string>U+2460</string>
 		<key>to</key>
-		<string>U+24ff</string>
+		<string>U+24ea</string>
 	</dict>
 	<key>Box Drawing</key>
 	<dict>
@@ -343,7 +287,7 @@
 		<key>from</key>
 		<string>U+2580</string>
 		<key>to</key>
-		<string>U+259f</string>
+		<string>U+2595</string>
 	</dict>
 	<key>Geometric Shapes</key>
 	<dict>
@@ -357,14 +301,14 @@
 		<key>from</key>
 		<string>U+2600</string>
 		<key>to</key>
-		<string>U+26ff</string>
+		<string>U+26b2</string>
 	</dict>
 	<key>Dingbats</key>
 	<dict>
 		<key>from</key>
 		<string>U+2700</string>
 		<key>to</key>
-		<string>U+27ff</string>
+		<string>U+27bf</string>
 	</dict>
 	<key>Braille Patterns</key>
 	<dict>
@@ -373,54 +317,40 @@
 		<key>to</key>
 		<string>U+28ff</string>
 	</dict>
-	<key>Supplemental Arrow-B</key>
-	<dict>
-		<key>from</key>
-		<string>U+2900</string>
-		<key>to</key>
-		<string>U+297f</string>
-	</dict>
-	<key>Miscellaneous Symbols and Arrows</key>
-	<dict>
-		<key>from</key>
-		<string>U+2b00</string>
-		<key>to</key>
-		<string>U+2bff</string>
-	</dict>
 	<key>Latin Extended-C</key>
 	<dict>
 		<key>from</key>
 		<string>U+2c60</string>
 		<key>to</key>
-		<string>U+2c7f</string>
+		<string>U+2c6c</string>
 	</dict>
 	<key>Supplemental Punctuation</key>
 	<dict>
 		<key>from</key>
 		<string>U+2e00</string>
 		<key>to</key>
-		<string>U+2e7f</string>
+		<string>U+2e17</string>
 	</dict>
 	<key>CJK Radicals Supplement</key>
 	<dict>
 		<key>from</key>
 		<string>U+2e80</string>
 		<key>to</key>
-		<string>U+2eff</string>
+		<string>U+2ef3</string>
 	</dict>
 	<key>Kangxi Radicals</key>
 	<dict>
 		<key>from</key>
 		<string>U+2f00</string>
 		<key>to</key>
-		<string>U+2fdf</string>
+		<string>U+2fd5</string>
 	</dict>
 	<key>Ideographic Description Characters</key>
 	<dict>
 		<key>from</key>
 		<string>U+2ff0</string>
 		<key>to</key>
-		<string>U+2fff</string>
+		<string>U+2ffb</string>
 	</dict>
 	<key>CJK Symbols and Punctuation</key>
 	<dict>
@@ -446,9 +376,9 @@
 	<key>Bopomofo</key>
 	<dict>
 		<key>from</key>
-		<string>U+3100</string>
+		<string>U+3105</string>
 		<key>to</key>
-		<string>U+312f</string>
+		<string>U+3129</string>
 	</dict>
 	<key>Hangul Compatibility Jamo</key>
 	<dict>
@@ -464,13 +394,6 @@
 		<key>to</key>
 		<string>U+319f</string>
 	</dict>
-	<key>CJK Strokes</key>
-	<dict>
-		<key>from</key>
-		<string>U+31c0</string>
-		<key>to</key>
-		<string>U+31ef</string>
-	</dict>
 	<key>Katakana Phonetic Extensions</key>
 	<dict>
 		<key>from</key>
@@ -481,7 +404,7 @@
 	<key>Enclosed CJK Letters and Months</key>
 	<dict>
 		<key>from</key>
-		<string>U+3200</string>
+		<string>U+3220</string>
 		<key>to</key>
 		<string>U+32ff</string>
 	</dict>
@@ -490,7 +413,7 @@
 		<key>from</key>
 		<string>U+3300</string>
 		<key>to</key>
-		<string>U+33ff</string>
+		<string>U+33da</string>
 	</dict>
 	<key>CJK Unified Ideographs Extension A</key>
 	<dict>
@@ -498,13 +421,6 @@
 		<string>U+3400</string>
 		<key>to</key>
 		<string>U+4dbf</string>
-	</dict>
-	<key>Yijing Hexagram Symbols</key>
-	<dict>
-		<key>from</key>
-		<string>U+4dc0</string>
-		<key>to</key>
-		<string>U+4dff</string>
 	</dict>
 	<key>CJK Unified Ideographs</key>
 	<dict>
@@ -525,21 +441,14 @@
 		<key>from</key>
 		<string>U+a490</string>
 		<key>to</key>
-		<string>U+a4cf</string>
+		<string>U+a4c4</string>
 	</dict>
 	<key>Modifier Tone Letters</key>
 	<dict>
 		<key>from</key>
 		<string>U+a700</string>
 		<key>to</key>
-		<string>U+a71f</string>
-	</dict>
-	<key>Latin Extended-D</key>
-	<dict>
-		<key>from</key>
-		<string>U+a720</string>
-		<key>to</key>
-		<string>U+a7ff</string>
+		<string>U+a71a</string>
 	</dict>
 	<key>Hangul Syllables</key>
 	<dict>
@@ -548,40 +457,26 @@
 		<key>to</key>
 		<string>U+d7af</string>
 	</dict>
-	<key>Private Use Area</key>
-	<dict>
-		<key>from</key>
-		<string>U+e000</string>
-		<key>to</key>
-		<string>U+f8ff</string>
-	</dict>
 	<key>CJK Compatibility ldegraphs</key>
 	<dict>
 		<key>from</key>
 		<string>U+f900</string>
 		<key>to</key>
-		<string>U+faff</string>
+		<string>U+fa6a</string>
 	</dict>
 	<key>Alphabetic Presentation Forms</key>
 	<dict>
 		<key>from</key>
 		<string>U+fb00</string>
 		<key>to</key>
-		<string>U+fb4f</string>
+		<string>U+fb04</string>
 	</dict>
 	<key>Alphabetic Presentation Forms-A</key>
 	<dict>
 		<key>from</key>
 		<string>U+fb50</string>
 		<key>to</key>
-		<string>U+fdff</string>
-	</dict>
-	<key>Combining Half Marks</key>
-	<dict>
-		<key>from</key>
-		<string>U+fe20</string>
-		<key>to</key>
-		<string>U+fe2f</string>
+		<string>U+fdc7</string>
 	</dict>
 	<key>CJK Compatibility Forms</key>
 	<dict>
@@ -595,21 +490,21 @@
 		<key>from</key>
 		<string>U+fe50</string>
 		<key>to</key>
-		<string>U+fe6f</string>
+		<string>U+fe6b</string>
 	</dict>
 	<key>Arabic Presentation Forms-B</key>
 	<dict>
 		<key>from</key>
 		<string>U+fe70</string>
 		<key>to</key>
-		<string>U+feff</string>
+		<string>U+fefc</string>
 	</dict>
 	<key>Halfwidth and Fullwidth Forms</key>
 	<dict>
 		<key>from</key>
 		<string>U+ff00</string>
 		<key>to</key>
-		<string>U+ffef</string>
+		<string>U+ff9f</string>
 	</dict>
 </dict>
 </plist>

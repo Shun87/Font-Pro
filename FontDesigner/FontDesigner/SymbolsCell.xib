@@ -50,6 +50,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">101</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -85,6 +86,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">102</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -98,7 +100,7 @@
 							<object class="IBUILabel" id="157732889">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{94, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{91, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="234953925"/>
@@ -106,6 +108,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">103</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -119,7 +122,7 @@
 							<object class="IBUILabel" id="234953925">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{137, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{130, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="596903948"/>
@@ -127,6 +130,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">104</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -140,7 +144,7 @@
 							<object class="IBUILabel" id="596903948">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{175, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{171, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="140081124"/>
@@ -148,6 +152,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">105</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -161,7 +166,7 @@
 							<object class="IBUILabel" id="140081124">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{213, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{209, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="440828494"/>
@@ -169,6 +174,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">106</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -182,7 +188,7 @@
 							<object class="IBUILabel" id="440828494">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{251, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{247, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="881307923"/>
@@ -190,6 +196,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">107</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -203,7 +210,7 @@
 							<object class="IBUILabel" id="881307923">
 								<reference key="NSNextResponder" ref="586583458"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{280, 0}, {38, 50}}</string>
+								<string key="NSFrame">{{283, 0}, {38, 50}}</string>
 								<reference key="NSSuperview" ref="586583458"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
@@ -211,6 +218,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
+								<int key="IBUITag">108</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
@@ -476,6 +484,20 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">SymbolsViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="goBack:">id</string>
+						<string key="symbolClicked:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="goBack:">
+							<string key="name">goBack:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="symbolClicked:">
+							<string key="name">symbolClicked:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="mTableView">UITableView</string>
 						<string key="tmpCell">SymbolCell</string>
