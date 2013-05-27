@@ -44,6 +44,8 @@
 		369508CF1753A4E000D04A81 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3695089E1753A4E000D04A81 /* README.txt */; };
 		369508D51753C04900D04A81 /* symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 369508D31753C04900D04A81 /* symbol.png */; };
 		369508D61753C04900D04A81 /* symbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369508D41753C04900D04A81 /* symbol@2x.png */; };
+		369508D91753C0E800D04A81 /* TinyDiaryPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 369508D71753C0E800D04A81 /* TinyDiaryPro.png */; };
+		369508DA1753C0E800D04A81 /* TinyDiaryPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369508D81753C0E800D04A81 /* TinyDiaryPro@2x.png */; };
 		3699714817368ED700D47276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3699714717368ED700D47276 /* UIKit.framework */; };
 		3699714A17368ED700D47276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3699714917368ED700D47276 /* Foundation.framework */; };
 		3699714C17368ED700D47276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3699714B17368ED700D47276 /* CoreGraphics.framework */; };
@@ -169,6 +171,8 @@
 		3695089E1753A4E000D04A81 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		369508D31753C04900D04A81 /* symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol.png; sourceTree = SOURCE_ROOT; };
 		369508D41753C04900D04A81 /* symbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "symbol@2x.png"; sourceTree = SOURCE_ROOT; };
+		369508D71753C0E800D04A81 /* TinyDiaryPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TinyDiaryPro.png; sourceTree = "<group>"; };
+		369508D81753C0E800D04A81 /* TinyDiaryPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TinyDiaryPro@2x.png"; sourceTree = "<group>"; };
 		3699714417368ED700D47276 /* FontDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3699714717368ED700D47276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3699714917368ED700D47276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -288,6 +292,8 @@
 				3695082A1753A4B600D04A81 /* FontDesigner@2x.png */,
 				3695082C1753A4B600D04A81 /* MoreApp.h */,
 				3695082D1753A4B600D04A81 /* MoreApp.m */,
+				369508D71753C0E800D04A81 /* TinyDiaryPro.png */,
+				369508D81753C0E800D04A81 /* TinyDiaryPro@2x.png */,
 				3695082E1753A4B600D04A81 /* SMS2Group.png */,
 				3695082F1753A4B600D04A81 /* SMS2Group@2x.png */,
 			);
@@ -604,6 +610,8 @@
 				369508CF1753A4E000D04A81 /* README.txt in Resources */,
 				369508D51753C04900D04A81 /* symbol.png in Resources */,
 				369508D61753C04900D04A81 /* symbol@2x.png in Resources */,
+				369508D91753C0E800D04A81 /* TinyDiaryPro.png in Resources */,
+				369508DA1753C0E800D04A81 /* TinyDiaryPro@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
