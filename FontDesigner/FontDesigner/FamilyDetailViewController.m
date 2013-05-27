@@ -71,7 +71,7 @@
         return [objStr1 compare:objStr2];
     }];
     
-    
+#if FreeApp
     AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
     if (app.adBanner.superview != nil)
     {
@@ -83,6 +83,7 @@
     app.adBanner.frame = rect;
     app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
     [self.view addSubview:app.adBanner];
+#endif
 }
 
 - (void)didReceiveMemoryWarning

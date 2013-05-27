@@ -17,7 +17,11 @@
 
 @implementation AppDelegate
 @synthesize systemFontFamily;
-//@synthesize adBanner;
+@synthesize window = _window;
+@synthesize tabBarController = _tabBarController;
+#if FreeApp
+@synthesize adBanner;
+#endif
 - (void)dealloc
 {
     //[adBanner release];
@@ -97,6 +101,7 @@
     return YES;
 }
 
+#if FreeApp
 // Here we're creating a simple GADRequest and whitelisting the application
 // for test ads. You should request test ads during development to avoid
 // generating invalid impressions and clicks.
@@ -117,6 +122,7 @@
 didFailToReceiveAdWithError:(GADRequestError *)error {
     NSLog(@"Failed to receive ad with error: %@", [error localizedFailureReason]);
 }
+#endif
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

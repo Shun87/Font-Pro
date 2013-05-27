@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "SymbolCell.h"
 #import "SymbolDesc.h"
-
 @interface SymbolsViewController : UIViewController
 <UITableViewDataSource, UITableViewDelegate>
 {
@@ -21,6 +20,8 @@
     
     SymbolDesc *symbolDesc;
     BOOL emoj;
+    
+    UIView *symbolDetailView;
 }
 @property (nonatomic)BOOL emoj;
 @property (nonatomic, retain)SymbolDesc *symbolDesc;
