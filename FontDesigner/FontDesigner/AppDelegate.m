@@ -47,7 +47,7 @@
     
     SymbolListViewController *sysmbolNameViewController = [[[SymbolListViewController alloc] initWithNibName:@"SymbolListViewController" bundle:nil] autorelease];
     sysmbolNameViewController.title = NSLocalizedString(@"Symbols", @"Family");
-    sysmbolNameViewController.tabBarItem.image = [UIImage imageNamed:@"account"];
+    sysmbolNameViewController.tabBarItem.image = [UIImage imageNamed:@"symbol.png"];
     
     // Override point for customization after application launch.
     FamilyViewController *viewController1 = [[[FamilyViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
