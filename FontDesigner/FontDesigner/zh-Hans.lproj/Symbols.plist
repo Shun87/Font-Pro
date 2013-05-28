@@ -5,14 +5,14 @@
 	<key>基本拉丁文</key>
 	<dict>
 		<key>from</key>
-		<string>U+0000</string>
+		<string>U+0021</string>
 		<key>to</key>
 		<string>U+007f</string>
 	</dict>
 	<key>拉丁文补充</key>
 	<dict>
 		<key>from</key>
-		<string>U+0080</string>
+		<string>U+00a1</string>
 		<key>to</key>
 		<string>U+00ff</string>
 	</dict>
@@ -30,838 +30,481 @@
 		<key>to</key>
 		<string>U+024f</string>
 	</dict>
-	<key>IPA Extended-B</key>
+	<key>国际音标扩展</key>
 	<dict>
 		<key>from</key>
 		<string>U+0250</string>
 		<key>to</key>
 		<string>U+02af</string>
 	</dict>
-	<key>Spacing Modifier Letters</key>
+	<key>占位符</key>
 	<dict>
 		<key>from</key>
 		<string>U+02b0</string>
 		<key>to</key>
 		<string>U+02ff</string>
 	</dict>
-	<key>Combining Diacritical Marks</key>
+	<key>希腊字母和科普特字母</key>
 	<dict>
 		<key>from</key>
-		<string>U+0300</string>
-		<key>to</key>
-		<string>U+036f</string>
-	</dict>
-	<key>Greek and Coptic</key>
-	<dict>
-		<key>from</key>
-		<string>U+0370</string>
+		<string>U+0374</string>
 		<key>to</key>
 		<string>U+03ff</string>
 	</dict>
-	<key>Cyrillic </key>
+	<key>西尔里字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+0400</string>
 		<key>to</key>
 		<string>U+04ff</string>
 	</dict>
-	<key>Cyrillic Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+0500</string>
-		<key>to</key>
-		<string>U+052f</string>
-	</dict>
-	<key>Armenian</key>
+	<key>亚美尼亚字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+0530</string>
 		<key>to</key>
-		<string>U+058f</string>
+		<string>U+058a</string>
 	</dict>
-	<key>Hebrew</key>
-	<dict>
-		<key>from</key>
-		<string>U+0590</string>
-		<key>to</key>
-		<string>U+05ff</string>
-	</dict>
-	<key>Arabic</key>
+	<key>阿拉伯语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0600</string>
 		<key>to</key>
 		<string>U+06ff</string>
 	</dict>
-	<key>Devanagari</key>
+	<key>天城文</key>
 	<dict>
 		<key>from</key>
 		<string>U+0900</string>
 		<key>to</key>
 		<string>U+097f</string>
 	</dict>
-	<key>Bengali</key>
+	<key>孟加拉文</key>
 	<dict>
 		<key>from</key>
 		<string>U+0980</string>
 		<key>to</key>
 		<string>U+09ff</string>
 	</dict>
-	<key>Gurmukhi</key>
+	<key>果鲁穆奇字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+0a00</string>
 		<key>to</key>
-		<string>U+0a7f</string>
+		<string>U+0a74</string>
 	</dict>
-	<key>Gujarati</key>
+	<key>古吉拉特语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0a80</string>
 		<key>to</key>
-		<string>U+0aff</string>
+		<string>U+0ab9</string>
 	</dict>
-	<key>Oriya</key>
+	<key>奥里雅语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0b00</string>
 		<key>to</key>
-		<string>U+0b7f</string>
+		<string>U+0b71</string>
 	</dict>
-	<key>Tamil</key>
+	<key>泰米尔语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0b80</string>
 		<key>to</key>
 		<string>U+0bff</string>
 	</dict>
-	<key>Telugu</key>
+	<key>泰卢固语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0c00</string>
 		<key>to</key>
 		<string>U+0c7f</string>
 	</dict>
-	<key>Kannada</key>
+	<key>卡纳达文</key>
 	<dict>
 		<key>from</key>
 		<string>U+0c80</string>
 		<key>to</key>
-		<string>U+0cff</string>
+		<string>U+0cef</string>
 	</dict>
-	<key>Malayalam</key>
-	<dict>
-		<key>from</key>
-		<string>U+0ddd</string>
-		<key>to</key>
-		<string>U+0d7f</string>
-	</dict>
-	<key>Sinhala</key>
+	<key>僧伽罗语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0d80</string>
 		<key>to</key>
-		<string>U+0dff</string>
+		<string>U+0ddf</string>
 	</dict>
-	<key>Thai</key>
+	<key>泰国语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0e00</string>
 		<key>to</key>
-		<string>U+0e7f</string>
+		<string>U+0e5b</string>
 	</dict>
-	<key>Lao</key>
+	<key>老挝语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0e80</string>
 		<key>to</key>
-		<string>U+0eff</string>
+		<string>U+0edd</string>
 	</dict>
 	<key>藏语</key>
 	<dict>
 		<key>from</key>
 		<string>U+0f00</string>
 		<key>to</key>
-		<string>U+0fff</string>
+		<string>U+0fd8</string>
 	</dict>
-	<key>格鲁吉亚语</key>
+	<key>格鲁吉亚语 </key>
 	<dict>
 		<key>from</key>
 		<string>U+10a0</string>
 		<key>to</key>
-		<string>U+10ff</string>
+		<string>U+10f6</string>
 	</dict>
 	<key>朝鲜文</key>
 	<dict>
 		<key>from</key>
 		<string>U+1100</string>
 		<key>to</key>
-		<string>U+11ff</string>
+		<string>U+1112</string>
 	</dict>
-	<key>切诺基</key>
+	<key>切罗基字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+13a0</string>
 		<key>to</key>
-		<string>U+13ff</string>
+		<string>U+13f4</string>
 	</dict>
 	<key>统一加拿大土着语音节</key>
 	<dict>
 		<key>from</key>
 		<string>U+1400</string>
 		<key>to</key>
-		<string>U+167f</string>
+		<string>U+1676</string>
 	</dict>
-	<key>Phonetic Extensions</key>
-	<dict>
-		<key>from</key>
-		<string>U+1d00</string>
-		<key>to</key>
-		<string>U+1d7f</string>
-	</dict>
-	<key>Phonetic Extensions Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+1d80</string>
-		<key>to</key>
-		<string>U+1dbf</string>
-	</dict>
-	<key>Combining Diacritical Marks Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+1dc0</string>
-		<key>to</key>
-		<string>U+1dff</string>
-	</dict>
-	<key>Latin Extended Additional</key>
+	<key>拉丁文扩展附加</key>
 	<dict>
 		<key>from</key>
 		<string>U+1e00</string>
 		<key>to</key>
-		<string>U+1eff</string>
+		<string>U+1ef9</string>
 	</dict>
-	<key>Greek Extended</key>
+	<key>希腊语</key>
 	<dict>
 		<key>from</key>
 		<string>U+1f00</string>
 		<key>to</key>
 		<string>U+1fff</string>
 	</dict>
-	<key>General Punctuation</key>
+	<key>通用标点</key>
 	<dict>
 		<key>from</key>
-		<string>U+2000</string>
+		<string>U+2010</string>
 		<key>to</key>
-		<string>U+206f</string>
+		<string>U+205e</string>
 	</dict>
-	<key>Superscripts and Subscripts</key>
+	<key>上标和下标</key>
 	<dict>
 		<key>from</key>
 		<string>U+2070</string>
 		<key>to</key>
-		<string>U+209f</string>
+		<string>U+2094</string>
 	</dict>
-	<key>Currency Symbols</key>
+	<key>货币符号</key>
 	<dict>
 		<key>from</key>
 		<string>U+20a0</string>
 		<key>to</key>
-		<string>U+20cf</string>
+		<string>U+20b5</string>
 	</dict>
-	<key>Combining Diacritical Marks for Symbols</key>
-	<dict>
-		<key>from</key>
-		<string>U+20d0</string>
-		<key>to</key>
-		<string>U+20ff</string>
-	</dict>
-	<key>Letterlike Symbols</key>
+	<key>字母式符号</key>
 	<dict>
 		<key>from</key>
 		<string>U+2100</string>
 		<key>to</key>
 		<string>U+214f</string>
 	</dict>
-	<key>Number Forms</key>
+	<key>数字形式</key>
 	<dict>
 		<key>from</key>
-		<string>U+2150</string>
+		<string>U+2153</string>
 		<key>to</key>
-		<string>U+218f</string>
+		<string>U+2184</string>
 	</dict>
-	<key>Arrows</key>
+	<key>箭头</key>
 	<dict>
 		<key>from</key>
 		<string>U+2190</string>
 		<key>to</key>
-		<string>U+21ff</string>
+		<string>U+21ea</string>
 	</dict>
-	<key>Mathematical Operators</key>
+	<key>数学运算符</key>
 	<dict>
 		<key>from</key>
 		<string>U+2200</string>
 		<key>to</key>
-		<string>U+22ff</string>
+		<string>U+22f1</string>
 	</dict>
-	<key>Miscellaneous Thchnical</key>
+	<key>杂项工业符号</key>
 	<dict>
 		<key>from</key>
 		<string>U+2300</string>
 		<key>to</key>
-		<string>U+23ff</string>
+		<string>U+237a</string>
 	</dict>
-	<key>Control Pictures</key>
+	<key>控制图片</key>
 	<dict>
 		<key>from</key>
 		<string>U+2400</string>
 		<key>to</key>
-		<string>U+243f</string>
+		<string>U+2424</string>
 	</dict>
-	<key>Optical Character Recognition</key>
+	<key>光学识别符</key>
 	<dict>
 		<key>from</key>
 		<string>U+2440</string>
 		<key>to</key>
-		<string>U+245f</string>
+		<string>U+244a</string>
 	</dict>
-	<key>Enclosed Alphanumerics</key>
+	<key>封闭式字母数字</key>
 	<dict>
 		<key>from</key>
 		<string>U+2460</string>
 		<key>to</key>
-		<string>U+24ff</string>
+		<string>U+24ea</string>
 	</dict>
-	<key>Box Drawing</key>
+	<key>制表符</key>
 	<dict>
 		<key>from</key>
 		<string>U+2500</string>
 		<key>to</key>
 		<string>U+257f</string>
 	</dict>
-	<key>Block Elements</key>
+	<key>方块元素</key>
 	<dict>
 		<key>from</key>
 		<string>U+2580</string>
 		<key>to</key>
-		<string>U+259f</string>
+		<string>U+2595</string>
 	</dict>
-	<key>Geometric Shapes</key>
+	<key>几何图形</key>
 	<dict>
 		<key>from</key>
 		<string>U+25a0</string>
 		<key>to</key>
 		<string>U+25ff</string>
 	</dict>
-	<key>Miscellaneous Symbols</key>
+	<key>杂项符号</key>
 	<dict>
 		<key>from</key>
 		<string>U+2600</string>
 		<key>to</key>
-		<string>U+26ff</string>
+		<string>U+26b2</string>
 	</dict>
-	<key>Dingbats</key>
+	<key>印刷符号 </key>
 	<dict>
 		<key>from</key>
 		<string>U+2700</string>
 		<key>to</key>
-		<string>U+27ff</string>
+		<string>U+27bf</string>
 	</dict>
-	<key>Miscellaneous Mathematical Symbols-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+27c0</string>
-		<key>to</key>
-		<string>U+27ef</string>
-	</dict>
-	<key>Supplemental Arrwos-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+27e0</string>
-		<key>to</key>
-		<string>U+27ff</string>
-	</dict>
-	<key>Braille Patterns</key>
+	<key>盲文点字模型</key>
 	<dict>
 		<key>from</key>
 		<string>U+2800</string>
 		<key>to</key>
 		<string>U+28ff</string>
 	</dict>
-	<key>Supplemental Arrow-B</key>
-	<dict>
-		<key>from</key>
-		<string>U+2900</string>
-		<key>to</key>
-		<string>U+297f</string>
-	</dict>
-	<key>Miscellaneous Mathematical Symbols-B</key>
-	<dict>
-		<key>from</key>
-		<string>U+2980</string>
-		<key>to</key>
-		<string>U+29ff</string>
-	</dict>
-	<key>Supplemental Mathematical Operators</key>
-	<dict>
-		<key>from</key>
-		<string>U+2a00</string>
-		<key>to</key>
-		<string>U+2aff</string>
-	</dict>
-	<key>Miscellaneous Symbols and Arrows</key>
-	<dict>
-		<key>from</key>
-		<string>U+2b00</string>
-		<key>to</key>
-		<string>U+2bff</string>
-	</dict>
-	<key>Glagolitic</key>
-	<dict>
-		<key>from</key>
-		<string>U+2c00</string>
-		<key>to</key>
-		<string>U+2c5f</string>
-	</dict>
-	<key>Latin Extended-C</key>
+	<key>拉丁文扩展-C</key>
 	<dict>
 		<key>from</key>
 		<string>U+2c60</string>
 		<key>to</key>
-		<string>U+2c7f</string>
+		<string>U+2c6c</string>
 	</dict>
-	<key>Coptic</key>
-	<dict>
-		<key>from</key>
-		<string>U+2c80</string>
-		<key>to</key>
-		<string>U+2cff</string>
-	</dict>
-	<key>Georgian Supplement</key>
-	<dict>
-		<key>from</key>
-		<string>U+2d00</string>
-		<key>to</key>
-		<string>U+2d2f</string>
-	</dict>
-	<key>Tifinagh</key>
-	<dict>
-		<key>from</key>
-		<string>U+2d30</string>
-		<key>to</key>
-		<string>U+2d7f</string>
-	</dict>
-	<key>Ethiopic Extended</key>
-	<dict>
-		<key>from</key>
-		<string>U+2d80</string>
-		<key>to</key>
-		<string>U+2ddf</string>
-	</dict>
-	<key>Syrillic Extended-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+2de0</string>
-		<key>to</key>
-		<string>U+2dff</string>
-	</dict>
-	<key>Supplemental Punctuation</key>
+	<key>追加标点</key>
 	<dict>
 		<key>from</key>
 		<string>U+2e00</string>
 		<key>to</key>
-		<string>U+2e7f</string>
+		<string>U+2e17</string>
 	</dict>
-	<key>CJK Radicals Supplement</key>
+	<key>CJK 部首补充</key>
 	<dict>
 		<key>from</key>
 		<string>U+2e80</string>
 		<key>to</key>
-		<string>U+eff</string>
+		<string>U+2ef3</string>
 	</dict>
-	<key>Kangxi Radicals</key>
+	<key>康熙字典部首</key>
 	<dict>
 		<key>from</key>
 		<string>U+2f00</string>
 		<key>to</key>
-		<string>U+2fdf</string>
+		<string>U+2fd5</string>
 	</dict>
-	<key>Ideographic Description Characters</key>
+	<key>表意文字描述符</key>
 	<dict>
 		<key>from</key>
 		<string>U+2ff0</string>
 		<key>to</key>
-		<string>U+2fff</string>
+		<string>U+2ffb</string>
 	</dict>
-	<key>CJK Symbols and Punctuation</key>
+	<key>CJK 符号和标点</key>
 	<dict>
 		<key>from</key>
 		<string>U+3000</string>
 		<key>to</key>
 		<string>U+303f</string>
 	</dict>
-	<key>Hiragana</key>
+	<key>日文平假名</key>
 	<dict>
 		<key>from</key>
 		<string>U+3040</string>
 		<key>to</key>
 		<string>U+309f</string>
 	</dict>
-	<key>Katakana</key>
+	<key>日文片假名</key>
 	<dict>
 		<key>from</key>
 		<string>U+30a0</string>
 		<key>to</key>
 		<string>U+30ff</string>
 	</dict>
-	<key>Bopomofo</key>
+	<key>注音字母</key>
 	<dict>
 		<key>from</key>
-		<string>U+3100</string>
+		<string>U+3105</string>
 		<key>to</key>
-		<string>U+312f</string>
+		<string>U+3129</string>
 	</dict>
-	<key>Hangul Compatibility Jamo</key>
+	<key>朝鲜文兼容字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+3130</string>
 		<key>to</key>
 		<string>U+318f</string>
 	</dict>
-	<key>Kanbun</key>
+	<key>象形字注释标志</key>
 	<dict>
 		<key>from</key>
 		<string>U+3190</string>
 		<key>to</key>
 		<string>U+319f</string>
 	</dict>
-	<key>Bopomofo Extended</key>
-	<dict>
-		<key>from</key>
-		<string>U+31a0</string>
-		<key>to</key>
-		<string>U+31bf</string>
-	</dict>
-	<key>CJK Strokes</key>
-	<dict>
-		<key>from</key>
-		<string>U+31c0</string>
-		<key>to</key>
-		<string>U+31ef</string>
-	</dict>
-	<key>Katakana Phonetic Extensions</key>
+	<key>日文片假名语音扩展</key>
 	<dict>
 		<key>from</key>
 		<string>U+31f0</string>
 		<key>to</key>
 		<string>U+31ff</string>
 	</dict>
-	<key>Enclosed CJK Letters and Months</key>
+	<key>封闭式 CJK 文字和月份</key>
 	<dict>
 		<key>from</key>
-		<string>U+3200</string>
+		<string>U+3220</string>
 		<key>to</key>
 		<string>U+32ff</string>
 	</dict>
-	<key>CJK Compatibility</key>
+	<key>CJK 兼容</key>
 	<dict>
 		<key>from</key>
 		<string>U+3300</string>
 		<key>to</key>
-		<string>U+33ff</string>
+		<string>U+33da</string>
 	</dict>
-	<key>CJK Unified Ideographs Extension A</key>
+	<key>CJK 统一表意符号扩展 A</key>
 	<dict>
 		<key>from</key>
 		<string>U+3400</string>
 		<key>to</key>
 		<string>U+4dbf</string>
 	</dict>
-	<key>Yijing Hexagram Symbols</key>
-	<dict>
-		<key>from</key>
-		<string>U+4dc0</string>
-		<key>to</key>
-		<string>U+4dff</string>
-	</dict>
-	<key>CJK Unified Ideographs</key>
+	<key>CJK 统一表意符号 </key>
 	<dict>
 		<key>from</key>
 		<string>U+4e00</string>
 		<key>to</key>
 		<string>U+9fff</string>
 	</dict>
-	<key>Yi Syllables</key>
+	<key>彝文音节</key>
 	<dict>
 		<key>from</key>
 		<string>U+a000</string>
 		<key>to</key>
 		<string>U+a48f</string>
 	</dict>
-	<key>Yi Radicals</key>
+	<key>彝文字根</key>
 	<dict>
 		<key>from</key>
 		<string>U+a490</string>
 		<key>to</key>
-		<string>U+a4cf</string>
+		<string>U+a4c4</string>
 	</dict>
-	<key>Lisu</key>
-	<dict>
-		<key>from</key>
-		<string>U+a4d0</string>
-		<key>to</key>
-		<string>U+a4ff</string>
-	</dict>
-	<key>Vai</key>
-	<dict>
-		<key>from</key>
-		<string>U+a500</string>
-		<key>to</key>
-		<string>U+a63f</string>
-	</dict>
-	<key>Cyrillic Extended-B</key>
-	<dict>
-		<key>from</key>
-		<string>U+a640</string>
-		<key>to</key>
-		<string>U+a69f</string>
-	</dict>
-	<key>Bamum</key>
-	<dict>
-		<key>from</key>
-		<string>U+a6a0</string>
-		<key>to</key>
-		<string>U+a6ff</string>
-	</dict>
-	<key>Modifier Tone Letters</key>
+	<key>声调修饰字母</key>
 	<dict>
 		<key>from</key>
 		<string>U+a700</string>
 		<key>to</key>
-		<string>U+a71f</string>
+		<string>U+a71a</string>
 	</dict>
-	<key>Latin Extended-D</key>
-	<dict>
-		<key>from</key>
-		<string>U+a720</string>
-		<key>to</key>
-		<string>U+a7ff</string>
-	</dict>
-	<key>Syloti Nagri</key>
-	<dict>
-		<key>from</key>
-		<string>U+a800</string>
-		<key>to</key>
-		<string>U+a82f</string>
-	</dict>
-	<key>Common Indic Number Forms</key>
-	<dict>
-		<key>from</key>
-		<string>U+a830</string>
-		<key>to</key>
-		<string>U+a83f</string>
-	</dict>
-	<key>Phags-pa</key>
-	<dict>
-		<key>from</key>
-		<string>U+a840</string>
-		<key>to</key>
-		<string>U+a87f</string>
-	</dict>
-	<key>Saurashtra</key>
-	<dict>
-		<key>from</key>
-		<string>U+a880</string>
-		<key>to</key>
-		<string>U+a8df</string>
-	</dict>
-	<key>Devanagari Extended</key>
-	<dict>
-		<key>from</key>
-		<string>U+a8e0</string>
-		<key>to</key>
-		<string>U+a8ff</string>
-	</dict>
-	<key>Kayah Li</key>
-	<dict>
-		<key>from</key>
-		<string>U+a900</string>
-		<key>to</key>
-		<string>U+a92f</string>
-	</dict>
-	<key>Rejang</key>
-	<dict>
-		<key>from</key>
-		<string>U+a930</string>
-		<key>to</key>
-		<string>U+a95f</string>
-	</dict>
-	<key>Hangul Jamo Extended-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+a960</string>
-		<key>to</key>
-		<string>U+a97F</string>
-	</dict>
-	<key>Javanese</key>
-	<dict>
-		<key>from</key>
-		<string>U+a980</string>
-		<key>to</key>
-		<string>U+a9df</string>
-	</dict>
-	<key>Cham</key>
-	<dict>
-		<key>from</key>
-		<string>U+aa00</string>
-		<key>to</key>
-		<string>U+aa5f</string>
-	</dict>
-	<key>Myanmar Extended-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+aa60</string>
-		<key>to</key>
-		<string>U+aa7f</string>
-	</dict>
-	<key>Tai Viet</key>
-	<dict>
-		<key>from</key>
-		<string>U+aa80</string>
-		<key>to</key>
-		<string>U+aadf</string>
-	</dict>
-	<key>Meetei Mayek Extensions</key>
-	<dict>
-		<key>from</key>
-		<string>U+aae0</string>
-		<key>to</key>
-		<string>U+aaff</string>
-	</dict>
-	<key>Ethiopic Extended-A</key>
-	<dict>
-		<key>from</key>
-		<string>U+ab00</string>
-		<key>to</key>
-		<string>U+ab2f</string>
-	</dict>
-	<key>Meetei Myaek</key>
-	<dict>
-		<key>from</key>
-		<string>U+abc0</string>
-		<key>to</key>
-		<string>U+abff</string>
-	</dict>
-	<key>Hangul Syllables</key>
+	<key>朝鲜文音节</key>
 	<dict>
 		<key>from</key>
 		<string>U+ac00</string>
 		<key>to</key>
 		<string>U+d7af</string>
 	</dict>
-	<key>Hangul Jamo Extended-B</key>
-	<dict>
-		<key>from</key>
-		<string>U+d7b0</string>
-		<key>to</key>
-		<string>U+d7ff</string>
-	</dict>
-	<key>High Surrogates</key>
-	<dict>
-		<key>from</key>
-		<string>U+d800</string>
-		<key>to</key>
-		<string>U+db7f</string>
-	</dict>
-	<key>High Private Use Surrogates</key>
-	<dict>
-		<key>from</key>
-		<string>U+db80</string>
-		<key>to</key>
-		<string>U+dbff</string>
-	</dict>
-	<key>Low Surrogates</key>
-	<dict>
-		<key>from</key>
-		<string>U+dc00</string>
-		<key>to</key>
-		<string>U+dfff</string>
-	</dict>
-	<key>Private Use Area</key>
-	<dict>
-		<key>from</key>
-		<string>U+e000</string>
-		<key>to</key>
-		<string>U+f8ff</string>
-	</dict>
-	<key>CJK Compatibility ldegraphs</key>
+	<key>CJK 兼容象形文字</key>
 	<dict>
 		<key>from</key>
 		<string>U+f900</string>
 		<key>to</key>
-		<string>U+faff</string>
+		<string>U+fa6a</string>
 	</dict>
-	<key>Alphabetic Presentation Forms</key>
+	<key>字母表达形式</key>
 	<dict>
 		<key>from</key>
 		<string>U+fb00</string>
 		<key>to</key>
-		<string>U+fb4f</string>
+		<string>U+fb04</string>
 	</dict>
-	<key>Alphabetic Presentation Forms-A</key>
+	<key>阿拉伯表达形式A </key>
 	<dict>
 		<key>from</key>
 		<string>U+fb50</string>
 		<key>to</key>
-		<string>U+fdff</string>
+		<string>U+fdc7</string>
 	</dict>
-	<key>Variation Selectors</key>
-	<dict>
-		<key>from</key>
-		<string>U+fe00</string>
-		<key>to</key>
-		<string>U+fe0f</string>
-	</dict>
-	<key>Vertical Forms</key>
-	<dict>
-		<key>from</key>
-		<string>U+fe10</string>
-		<key>to</key>
-		<string>U+fe1f</string>
-	</dict>
-	<key>Combining Half Marks</key>
-	<dict>
-		<key>from</key>
-		<string>U+fe20</string>
-		<key>to</key>
-		<string>U+fe2f</string>
-	</dict>
-	<key>CJK Compatibility Forms</key>
+	<key>CJK 兼容形式</key>
 	<dict>
 		<key>from</key>
 		<string>U+fe30</string>
 		<key>to</key>
 		<string>U+fe4f</string>
 	</dict>
-	<key>Small Form Variants</key>
+	<key>小型变体形式</key>
 	<dict>
 		<key>from</key>
 		<string>U+fe50</string>
 		<key>to</key>
-		<string>U+fe6f</string>
+		<string>U+fe6b</string>
 	</dict>
-	<key>Arabic Presentation Forms-B</key>
+	<key>阿拉伯表达形式B </key>
 	<dict>
 		<key>from</key>
 		<string>U+fe70</string>
 		<key>to</key>
-		<string>U+feff</string>
+		<string>U+fefc</string>
 	</dict>
-	<key>Halfwidth and Fullwidth Forms</key>
+	<key>半角及全角形式</key>
 	<dict>
 		<key>from</key>
 		<string>U+ff00</string>
 		<key>to</key>
-		<string>U+ffef</string>
+		<string>U+ff9f</string>
 	</dict>
 </dict>
 </plist>

@@ -259,6 +259,7 @@
 		36F9C5CE174E74AD00CD26F8 /* back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_white.png; sourceTree = SOURCE_ROOT; };
 		36F9C5CF174E74AD00CD26F8 /* back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@2x.png"; sourceTree = SOURCE_ROOT; };
 		36F9C5D2174E85D200CD26F8 /* Emoj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Emoj.h; path = ../Emoj.h; sourceTree = "<group>"; };
+		FA23075A1754C37A00A94DA1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Symbols.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -650,6 +651,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				364FB1121750E64D006B9CF2 /* en */,
+				FA23075A1754C37A00A94DA1 /* zh-Hans */,
 			);
 			name = Symbols.plist;
 			sourceTree = "<group>";
