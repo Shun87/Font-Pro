@@ -13,7 +13,7 @@
 "Feedback" = "フィードバック";
 "About" = "について";
 "Invite By Email" = "メール招待";
-"Invite By SMS" = "メール招待";
+"Invite By SMS" = "文字メッセージ招待";
 "Send feekback" = "フィードバックの送信";
 "Version" = "バージョン番号";
 "GroupSMSCondition" = "群发短信需要再“设置”应用程序中关闭iMessage、群发讯息和彩信。";

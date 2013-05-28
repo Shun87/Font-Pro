@@ -7,10 +7,11 @@
 //
 
 #import "SymbolsViewController.h"
-
+#import "AppDelegate.h"
 @implementation SymbolsViewController
 @synthesize mTableView;
 @synthesize tmpCell, cellNib, symbolArray, symbolDesc, emoj;
+
 - (void)dealloc
 {
     [mTableView release];
@@ -91,6 +92,24 @@
 
     }
     
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+#if FreeApp
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    if (app.adBanner.superview != nil)
+    {
+        [app.adBanner removeFromSuperview];
+    }
+    
+    CGRect rect = app.adBanner.frame;
+    rect.origin.y = self.view.frame.size.height -  CGSizeFromGADAdSize(kGADAdSizeBanner).height;
+    app.adBanner.frame = rect;
+    app.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    [self.view addSubview:app.adBanner];
+#endif
 }
 
 - (IBAction)goBack:(id)sender

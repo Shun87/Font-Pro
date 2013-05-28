@@ -72,25 +72,27 @@
     
     UINavigationController *navigationController4 = [[[UINavigationController alloc] initWithRootViewController:viewController4] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:sysmbolNav, navigationController1, navigationController2, navigationController3, navigationController4, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navigationController1, navigationController2, sysmbolNav, navigationController3, navigationController4, nil];
     self.window.rootViewController = self.tabBarController;
 
-//    // Initialize the banner at the bottom of the screen.
-//    CGPoint origin = CGPointMake(0.0, 0.0);
-//    // Use predefined GADAdSize constants to define the GADBannerView.
-//    self.adBanner = [[[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner
-//                                                    origin:origin]
-//                     autorelease];
-//    
-//    // Note: Edit SampleConstants.h to provide a definition for kSampleAdUnitID
-//    // before compiling.
-//    self.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
-//    self.adBanner.adUnitID = @"a151874a72e0ad9";
-//    self.adBanner.delegate = self;
-//    [self.adBanner setRootViewController:self.tabBarController];
-//    self.adBanner.center =
-//    CGPointMake(self.window.center.x, self.adBanner.center.y);
-//    [self.adBanner loadRequest:[self createRequest]];
+#if FreeApp
+    // Initialize the banner at the bottom of the screen.
+    CGPoint origin = CGPointMake(0.0, 0.0);
+    // Use predefined GADAdSize constants to define the GADBannerView.
+    self.adBanner = [[[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner
+                                                    origin:origin]
+                     autorelease];
+    
+    // Note: Edit SampleConstants.h to provide a definition for kSampleAdUnitID
+    // before compiling.
+    self.adBanner.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    self.adBanner.adUnitID = @"a151874a72e0ad9";
+    self.adBanner.delegate = self;
+    [self.adBanner setRootViewController:self.tabBarController];
+    self.adBanner.center =
+    CGPointMake(self.window.center.x, self.adBanner.center.y);
+    [self.adBanner loadRequest:[self createRequest]];
+#endif
     
     [self.window makeKeyAndVisible];
     
@@ -109,7 +111,7 @@
 // generating invalid impressions and clicks.
 - (GADRequest *)createRequest {
     GADRequest *request = [GADRequest request];
-
+    request.testDevices = @[GAD_SIMULATOR_ID];
     return request;
 }
 
