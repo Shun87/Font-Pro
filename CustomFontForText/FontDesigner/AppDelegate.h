@@ -1,0 +1,29 @@
+//
+//  AppDelegate.h
+//  TextFont
+//
+//  Created by chenshun on 13-5-5.
+//  Copyright (c) 2013年 ChenShun. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#define FreeApp 0
+
+#if FreeApp
+#import "GADBannerView.h"
+#endif
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+{
+    NSMutableArray *systemFontFamily;
+#if FreeApp
+     GADBannerView *adBanner;
+#endif
+}
+@property (nonatomic, retain)NSMutableArray *systemFontFamily;
+@property (strong, nonatomic) UIWindow *window;
+#if FreeApp
+@property (nonatomic, retain) GADBannerView *adBanner;
+#endif
+@property (strong, nonatomic) UITabBarController *tabBarController;
+
+@end
