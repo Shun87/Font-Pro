@@ -14,6 +14,8 @@
 #import "UIColor+HexColor.h"
 #import "StyleViewController.h"
 #include "SymbolListViewController.h"
+#import "iRate.h"
+#import "Flurry.h"
 
 @implementation AppDelegate
 @synthesize systemFontFamily;
@@ -99,9 +101,9 @@
     [[UINavigationBar appearance] setTintColor:[UIColor colorFromHex:BlueNavigationBar]];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     
-
-//    NSData *data = [strEmo dataUsingEncoding:NSUTF8StringEncoding];
-//    NSString *valueEmoj = [[NSString alloc] initWithData:data encoding:NSNonLossyASCIIStringEncoding];
+    [iRate sharedInstance].onlyPromptIfLatestVersion = NO;
+    [iRate sharedInstance].daysUntilPrompt = 1.0;
+    [Flurry startSession:@"BM4D8CXT5SMRMNP6XKNQ"];
     return YES;
 }
 

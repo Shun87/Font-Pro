@@ -146,18 +146,23 @@
         [symbolDetailView addSubview:taillabel];
         taillabel.tag = 1001;
         taillabel.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
-        taillabel.font = [UIFont systemFontOfSize:55];
+        if (emoj)
+        {
+            taillabel.font = [UIFont fontWithName:@"Apple Color Emoji" size:59];
+        }
+        
+        taillabel.backgroundColor = [UIColor clearColor];
         
         UILabel *copyLable = [[[UILabel alloc] initWithFrame:CGRectMake(0, taillabel.frame.origin.y + taillabel.frame.size.height +  10, symbolDetailView.frame.size.width, 20)] autorelease];
         copyLable.textAlignment =  UITextAlignmentCenter;
         copyLable.textColor = [UIColor darkGrayColor];
-        copyLable.text = label.text;
         [symbolDetailView addSubview:copyLable];
         copyLable.tag = 1002;
         copyLable.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
         copyLable.font = [UIFont systemFontOfSize:20];
         copyLable.text = NSLocalizedString(@"Copied", nil);
-        
+        taillabel.backgroundColor = [UIColor clearColor];
+//        
         UILabel *unicodeLable = [[[UILabel alloc] initWithFrame:CGRectMake(0, copyLable.frame.origin.y + copyLable.frame.size.height + 10, symbolDetailView.frame.size.width, 25)] autorelease];
         unicodeLable.textAlignment =  UITextAlignmentCenter;
         unicodeLable.textColor = [UIColor darkGrayColor];
@@ -166,6 +171,7 @@
         unicodeLable.tag = 1003;
         unicodeLable.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
         unicodeLable.font = [UIFont systemFontOfSize:20];
+        taillabel.backgroundColor = [UIColor clearColor];
     }
     [self.view addSubview:symbolDetailView];
     UILabel *detail = (UILabel *)[symbolDetailView viewWithTag:1001];
@@ -197,8 +203,9 @@
         unicodeLable.text = unicode;
     }
 
-    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-    pasteboard.string = label.text;
+    
+    UIPasteboard *board = [UIPasteboard generalPasteboard];
+    board.string = label.text;
     
     symbolDetailView.alpha = 1.0;
     [self performSelector:@selector(removeSymbolDetailView) withObject:nil afterDelay:1.3];
@@ -243,7 +250,8 @@
             [array addObject:[symbolArray objectAtIndex:i]];
         }
     }
-    [cell setTitle:array];
+    [cell setTitle:array withFont:emoj];
+        
     [cell addTaget:self selector:@selector(symbolClicked:)];
   
     return cell;

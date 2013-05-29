@@ -39,6 +39,7 @@
                                                                               action:@selector(handleTap:)];
     [self addGestureRecognizer:gesture];
     [gesture release];
+
 }
 
 - (void)handleTap:(UITapGestureRecognizer *)gesture
@@ -71,13 +72,17 @@
     }
 }
 
-- (void)setTitle:(NSArray *)array
+- (void)setTitle:(NSArray *)array withFont:(BOOL)changeFont
 {
     for (int i=0; i<[array count]; i++)
     {
         NSString *string = [array objectAtIndex:i];
         UILabel *label = [buttonArray objectAtIndex:i];
         label.text = string;
+        if (changeFont)
+        {
+            label.font = [UIFont fontWithName:@"Apple Color Emoji" size:35];
+        }
     }
 }
 

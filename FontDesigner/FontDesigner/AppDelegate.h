@@ -12,7 +12,12 @@
 #if FreeApp
 #import "GADBannerView.h"
 #endif
-@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate
+#if FreeApp
+,GADBannerViewDelegate>
+#else
+>
+#endif
 {
     NSMutableArray *systemFontFamily;
 #if FreeApp

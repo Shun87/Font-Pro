@@ -44,19 +44,19 @@
     self.mTableView.backgroundView = nil;
     self.mTableView.separatorColor = [UIColor colorFromHex:SeperatorColor];
 //    
-//    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [button setBackgroundImage:[UIImage imageNamed:@"today.png"] forState:UIControlStateNormal];
-//    [button setTitle:NSLocalizedString(@"Emoj", nil) forState:UIControlStateNormal];
-//    [button setFrame:CGRectMake(0, 0, 60, 30)];
-//    [button addTarget:self
-//               action:@selector(emojSymbols:) forControlEvents:UIControlEventTouchUpInside];
-//    button.titleLabel.font = [UIFont boldSystemFontOfSize:14];
-//    button.titleLabel.textColor = [UIColor whiteColor];
-//    button.titleLabel.shadowColor = [UIColor darkGrayColor];
-//    button.titleLabel.shadowOffset = CGSizeMake(0, -1);
-//    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-//    self.navigationItem.rightBarButtonItem = rightItem;
-//    [rightItem release];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setBackgroundImage:[UIImage imageNamed:@"today.png"] forState:UIControlStateNormal];
+    [button setTitle:NSLocalizedString(@"Emoj", nil) forState:UIControlStateNormal];
+    [button setFrame:CGRectMake(0, 0, 60, 30)];
+    [button addTarget:self
+               action:@selector(emojSymbols:) forControlEvents:UIControlEventTouchUpInside];
+    button.titleLabel.font = [UIFont boldSystemFontOfSize:14];
+    button.titleLabel.textColor = [UIColor whiteColor];
+    button.titleLabel.shadowColor = [UIColor darkGrayColor];
+    button.titleLabel.shadowOffset = CGSizeMake(0, -1);
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    [rightItem release];
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Symbols.plist" ofType:nil];
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithContentsOfFile:path];

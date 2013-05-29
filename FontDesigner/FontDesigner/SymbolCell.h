@@ -37,6 +37,6 @@
 - (void)setFontSize:(NSInteger)size;
 - (void)setNormalColor:(UIColor *)color;
 - (void)setHighlightColor:(UIColor *)color;
-- (void)setTitle:(NSArray *)array;
+- (void)setTitle:(NSArray *)array withFont:(BOOL)changeFont;
 - (void)addTaget:(id)target selector:(SEL)sel;
 @end
