@@ -113,7 +113,7 @@
 // generating invalid impressions and clicks.
 - (GADRequest *)createRequest {
     GADRequest *request = [GADRequest request];
-    request.testDevices = @[GAD_SIMULATOR_ID];
+   
     return request;
 }
 
